@@ -19,7 +19,7 @@ Branches para diferentes funcionalidades ou etapas do projeto
 
 Arquivo README.md contendo informações sobre o repositório e instruções básicas
 
-##Recursos Adicionais
+## Recursos Adicionais
 Caso você esteja buscando mais informações sobre Git e GitHub, recomendo conferir os seguintes recursos:
 
 [Documentação oficial do Git](https://git-scm.com/doc)
