@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1>Módulo 1 - Módulo I - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2 id="indice">Índice</h2>
+
+    <ul>
+        <li><a href="#historia">História do JavaScript</a></li>
+        <li><a href="#funcionalidades">Funcionalidades do JavaScript</a></li>
+        <li><a href="#sintaxe">Sintaxe do JavaScript</a></li>
+        <li><a href="#variaveis">Variáveis em JavaScript</a></li>
+        <li><a href="#estruturas">Estruturas de Controle</a></li>
+    </ul>
+
+    <h2 id="historia">História do JavaScript</h2>
+    <p>O JavaScript é uma linguagem de programação que foi criada por Brendan Eich em 1995, enquanto ele trabalhava na Netscape Communications Corporation. Inicialmente, a linguagem foi chamada de LiveScript, mas posteriormente foi renomeada para JavaScript para capitalizar a crescente popularidade da linguagem Java na época.</p>
+    <p>O JavaScript foi desenvolvido para ser uma linguagem de script do lado do cliente, permitindo a interatividade e aprimorando a experiência do usuário em páginas da web. Inicialmente, o objetivo era tornar a web mais dinâmica, adicionando recursos como validação de formulário, animações e manipulação de elementos da página em tempo real.</p>
+    <p>Ao longo dos anos, o JavaScript evoluiu significativamente, tornando-se uma linguagem de programação de propósito geral, amplamente utilizada tanto no lado do cliente (navegadores) quanto no lado do servidor (por exemplo, com o Node.js). Sua popularidade é atribuída à sua simplicidade, flexibilidade e à grande quantidade de bibliotecas e frameworks disponíveis.</p>
+    <p>Se você quiser saber mais sobre a história do JavaScript, você pode consultar os seguintes links:</p>
+    <ul>
+      <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Hist%C3%B3rico_do_JavaScript" target="_blank">Histórico do JavaScript - MDN</a></li>
+      <li><a href="https://www.w3schools.com/js/js_history.asp" target="_blank">JavaScript History - W3Schools</a></li>
+    </ul>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+
+
+    <h2 id="funcionalidades">Funcionalidades do JavaScript</h2>
+    <p>O JavaScript é uma linguagem de programação amplamente utilizada no desenvolvimento web. Ele oferece diversas funcionalidades, como:</p>
+    <ul>
+      <li>Manipulação do conteúdo HTML, permitindo interatividade e dinamismo nas páginas;</li>
+      <li>Controle de eventos, possibilitando ações em resposta a cliques, toques e outras interações do usuário;</li>
+      <li>Manipulação e validação de formulários, facilitando o processamento dos dados enviados pelos usuários;</li>
+      <li>Interação com APIs, permitindo acesso a recursos externos, como serviços web e bancos de dados;</li>
+      <li>Manipulação de elementos de página, permitindo a criação, exclusão ou modificação de elementos HTML e CSS;</li>
+      <li>Criação de animações e efeitos visuais, proporcionando uma experiência mais dinâmica e atraente aos usuários;</li>
+      <li>Manipulação de datas e horas, permitindo operações e formatação de dados temporais;</li>
+      <li>Criação de jogos, aplicativos web e outras aplicações interativas.</li>
+    </ul>
+    <p>Para saber mais sobre as funcionalidades do JavaScript, você pode consultar os seguintes links de referência:</p>
+    <ul>
+      <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Introduction" target="_blank">Mozilla Developer Network</a></li>
+      <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">W3Schools</a></li>
+      <li><a href="https://javascript.info/" target="_blank">JavaScript.info</a></li>
+    </ul>
+    <p><a href="#indice">Voltar ao Índice</a></p>
+    
+
+    <h2 id="sintaxe">Sintaxe do JavaScript</h2>
+    <p>O JavaScript utiliza uma sintaxe similar a outras linguagens de programação. Para escrever código em JavaScript, você pode seguir algumas regras básicas, como:</p>
+    <ul>
+      <li>O código JavaScript é escrito entre as tags <code>&lt;script&gt;</code> e <code>&lt;/script&gt;</code> dentro do seu documento HTML;</li>
+      <li>Você pode inserir o código JavaScript diretamente na página HTML ou referenciá-lo a partir de um arquivo externo;</li>
+      <li>As instruções JavaScript são separadas por ponto e vírgula (<code>;</code>);</li>
+      <li>As variáveis são declaradas utilizando a palavra-chave <code>var</code>, <code>let</code> ou <code>const</code>;</li>
+      <li>Os comentários em JavaScript podem ser feitos utilizando <code>//</code> para comentários de linha ou <code>/* ... */</code> para comentários de bloco;</li>
+      <li>O JavaScript diferencia letras maiúsculas e minúsculas, portanto, é sensível a maiúsculas e minúsculas.</li>
+    </ul>
+    <p>Aqui está um exemplo de código JavaScript:</p>
+    <div style="background-color: #1e1e1e; padding: 10px; border-radius: 5px; width: 400px;">
+      <pre style="color: #d4d4d4; font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; line-height: 1.5;">
+  <code>
+  <span style="color: #9cdcfe;">&lt;script&gt;</span>
+    <span style="color: #4ec9b0;">// Declaração de variáveis</span>
+    <span style="color: #569cd6;">var</span> nome = <span style="color: #ce9178;">"João"</span>;
+    <span style="color: #569cd6;">let</span> idade = <span style="color: #b5cea8;">25</span>;
+    <span style="color: #569cd6;">const</span> PI = <span style="color: #b5cea8;">3.14</span>;
+  
+    <span style="color: #4ec9b0;">// Exibição de mensagens</span>
+    <span style="color: #9cdcfe;">console</span>.log(<span style="color: #ce9178;">"Olá, "</span> + nome);
+    <span style="color: #9cdcfe;">console</span>.log(<span style="color: #ce9178;">"Sua idade é: "</span> + idade);
+  
+    <span style="color: #4ec9b0;">// Realizando operações matemáticas</span>
+    <span style="color: #569cd6;">let</span> resultado = idade * <span style="color: #b5cea8;">2</span>;
+    <span style="color: #9cdcfe;">console</span>.log(<span style="color: #ce9178;">"O dobro da idade é: "</span> + resultado);
+  <span style="color: #9cdcfe;">&lt;/script&gt;</span>
+  </code>
+      </pre>
+  </div>
+  <p>Para saber mais sobre a sintaxe do JavaScript e como escrever código nessa linguagem, você pode consultar os seguintes links de referência:</p>
+  <ul>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Sintaxe_básica" target="_blank">Mozilla Developer Network - Sintaxe Básica</a></li>
+    <li><a href="https://www.w3schools.com/js/js_syntax.asp" target="_blank">W3Schools - JavaScript Syntax</a></li>
+    <li><a href="https://javascript.info/intro" target="_blank">JavaScript.info - Introdução ao JavaScript</a></li>
+  </ul>
+  <p><a href="#indice">Voltar ao Índice</a></p>
+  
+  <h2 id="variaveis">Variáveis em JavaScript</h2>
+  <p>Em JavaScript, as variáveis são utilizadas para armazenar dados e informações que podem ser utilizados no código. Para declarar uma variável em JavaScript, utilizamos as palavras-chave <code>var</code>, <code>let</code> ou <code>const</code>, seguido pelo nome da variável.</p>
+  <p>Existem três tipos de declaração de variáveis em JavaScript:</p>
+  <ul>
+    <li><code>var</code>: É a forma antiga de declarar uma variável em JavaScript. Ela tem escopo de função, o que significa que uma variável declarada com <code>var</code> é acessível apenas dentro da função em que foi declarada. Além disso, ela possui hoisting, o que significa que a variável é movida para o topo do escopo em tempo de execução.</li>
+    <li><code>let</code>: É a forma moderna de declarar uma variável em JavaScript. Ela possui escopo de bloco, o que significa que uma variável declarada com <code>let</code> é acessível apenas dentro do bloco em que foi declarada. Ela não possui hoisting.</li>
+    <li><code>const</code>: É utilizada para declarar uma constante em JavaScript. Assim como o <code>let</code>, ela possui escopo de bloco e não possui hoisting. Uma vez atribuído um valor a uma constante, esse valor não pode ser alterado posteriormente.</li>
+  </ul>
+  <p>Aqui está um exemplo de declaração e utilização de variáveis em JavaScript:</p>
+  <div style="background-color: #1e1e1e; padding: 10px; border-radius: 5px; display: inline-block;">
+   <pre style="color: #d4d4d4; font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; line-height: 1.5;">
+ <code>
+ <span style="color: #9cdcfe;">&lt;script&gt;</span>
+   <span style="color: #569cd6;">var</span> nome = <span style="color: #ce9178;">"João"</span>; <span style="color: #9cdcfe;">// Declaração de variável utilizando var</span>
+   <span style="color: #569cd6;">let</span> idade = <span style="color: #b5cea8;">25</span>; <span style="color: #9cdcfe;">// Declaração de variável utilizando let</span>
+   <span style="color: #569cd6;">const</span> PI = <span style="color: #b5cea8;">3.14</span>; <span style="color: #9cdcfe;">// Declaração de constante utilizando const</span>
+ 
+   <span style="color: #9cdcfe;">console</span>.log(nome); <span style="color: #9cdcfe;">// Saída: João</span>
+   <span style="color: #9cdcfe;">console</span>.log(idade); <span style="color: #9cdcfe;">// Saída: 25</span>
+   <span style="color: #9cdcfe;">console</span>.log(PI); <span style="color: #9cdcfe;">// Saída: 3.14</span>
+ <span style="color: #9cdcfe;">&lt;/script&gt;</span>
+ </code>
+   </pre>
+ </div>
+  <p>Para saber mais sobre variáveis em JavaScript, você pode consultar os seguintes links de referência:</p>
+  <ul>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Values,_variables,_and_literals" target="_blank">Mozilla Developer Network - Valores, Variáveis e Literais</a></li>
+    <li><a href="https://www.w3schools.com/js/js_variables.asp" target="_blank">W3Schools - JavaScript Variables</a></li>
+    <li><a href="https://javascript.info/variables" target="_blank">JavaScript.info - Variáveis</a></li>
+  </ul>
+  <p><a href="#indice">Voltar ao Índice</a></p>
+  
+  <h2 id="estruturas">Estruturas de Controle em JavaScript</h2>
+  <p>As estruturas de controle em JavaScript são utilizadas para controlar o fluxo de execução do código. Elas permitem tomar decisões, repetir blocos de código e executar diferentes ações com base em condições. As principais estruturas de controle em JavaScript são:</p>
+  <ul>
+    <li><code>if</code> e <code>else</code>: Utilizados para executar blocos de código condicionalmente, com base em uma condição.</li>
+    <li><code>switch</code>: Utilizado para executar diferentes blocos de código com base no valor de uma expressão.</li>
+    <li><code>for</code>: Utilizado para repetir um bloco de código um número específico de vezes.</li>
+    <li><code>while</code> e <code>do...while</code>: Utilizados para repetir um bloco de código enquanto uma condição for verdadeira.</li>
+  </ul>
+  <p>Aqui está um exemplo de utilização das estruturas de controle em JavaScript:</p>
+  <div style="background-color: #1e1e1e; padding: 10px; border-radius: 5px; width: 400px;">
+    <pre style="color: #d4d4d4; font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; line-height: 1.5;">
+  <code>
+  <span style="color: #9cdcfe;">&lt;script&gt;</span>
+    <span style="color: #4ec9b0;">// Exemplo de utilização do if e else</span>
+    <span style="color: #569cd6;">let</span> idade = <span style="color: #b5cea8;">18</span>;
+  
+    <span style="color: #569cd6;">if</span> (idade &gt;= <span style="color: #b5cea8;">18</span>) {
+      <span style="color: #9cdcfe;">console</span>.log(<span style="color: #ce9178;">"Você é maior de idade."</span>);
+    } <span style="color: #569cd6;">else</span> {
+      <span style="color: #9cdcfe;">console</span>.log(<span style="color: #ce9178;">"Você é menor de idade."</span>);
+    }
+  
+    <span style="color: #4ec9b0;">// Exemplo de utilização do switch</span>
+    <span style="color: #569cd6;">let</span> diaDaSemana = <span style="color: #ce9178;">"sábado"</span>;
+  
+    <span style="color: #569cd6;">switch</span> (diaDaSemana) {
+      <span style="color: #569cd6;">case</span> <span style="color: #ce9178;">"segunda"</span>:
+        <span style="color: #9cdcfe;">console</span>.log(<span style="color: #ce9178;">"Hoje é segunda-feira."</span>);
+        <span style="color: #569cd6;">break</span>;
+      <span style="color: #569cd6;">case</span> <span style="color: #ce9178;">"terça"</span>:
+        <span style="color: #9cdcfe;">console</span>.log(<span style="color: #ce9178;">"Hoje é terça-feira."</span>);
+        <span style="color: #569cd6;">break</span>;
+      <span style="color: #569cd6;">case</span> <span style="color: #ce9178;">"sábado"</span>:
+      <span style="color: #569cd6;">case</span> <span style="color: #ce9178;">"domingo"</span>:
+        <span style="color: #9cdcfe;">console</span>.log(<span style="color: #ce9178;">"Hoje é fim de semana."</span>);
+        <span style="color: #569cd6;">break</span>;
+      <span style="color: #569cd6;">default</span>:
+        <span style="color: #9cdcfe;">console</span>.log(<span style="color: #ce9178;">"Hoje é um dia qualquer."</span>);
+    }
+  
+    <span style="color: #4ec9b0;">// Exemplo de utilização do for</span>
+    <span style="color: #569cd6;">for</span> (<span style="color: #569cd6;">let</span> i = <span style="color: #b5cea8;">0</span>; i &lt; <span style="color: #b5cea8;">5</span>; i++) {
+      <span style="color: #9cdcfe;">console</span>.log(<span style="color: #ce9178;">"Número: "</span> + i);
+    }
+  
+    <span style="color: #4ec9b0;">// Exemplo de utilização do while</span>
+    <span style="color: #569cd6;">let</span> contador = <span style="color: #b5cea8;">0</span>;
+  
+    <span style="color: #569cd6;">while</span> (contador &lt; <span style="color: #b5cea8;">3</span>) {
+      <span style="color: #9cdcfe;">console</span>.log(<span style="color: #ce9178;">"Contador: "</span> + contador);
+      contador++;
+    }
+  <span style="color: #9cdcfe;">&lt;/script&gt;</span>
+  </code>
+    </pre>
+  </div>
+  <p>Para saber mais sobre as estruturas de controle em JavaScript, você pode consultar os seguintes links de referência:</p>
+  <ul>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Declarações_Controle_Fluxo" target="_blank">Mozilla Developer Network - Declarações e Controle de Fluxo</a></li>
+    <li><a href="https://www.w3schools.com/js/js_if_else.asp" target="_blank">W3Schools - JavaScript If...Else</a></li>
+    <li><a href="https://javascript.info/switch" target="_blank">JavaScript.info - Switch</a></li>
+    <li><a href="https://www.w3schools.com/js/js_loop_for.asp" target="_blank">W3Schools - JavaScript For Loop</a></li>
+    <li><a href="https://javascript.info/while-for" target="_blank">JavaScript.info - While and Do...While Loops</a></li>
+  </ul>
+  <p><a href="#indice">Voltar ao Índice</a></p>
+  
+  <h2 id="funcoes">Funções em JavaScript</h2>
+  <p>As funções em JavaScript são blocos de código que podem ser reutilizados para executar uma determinada tarefa. Elas podem receber parâmetros, realizar operações e retornar um valor. As funções em JavaScript podem ser declaradas utilizando a palavra-chave <code>function</code>.</p>
+  <p>Aqui está um exemplo de declaração e utilização de uma função em JavaScript:</p>
+  <div style="background-color: #1e1e1e; padding: 10px; border-radius: 5px; width: 400px;">
+    <pre style="color: #d4d4d4; font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; line-height: 1.5;">
+  <code>
+  <span style="color: #9cdcfe;">&lt;script&gt;</span>
+    <span style="color: #569cd6;">function</span> saudacao(nome) {
+      <span style="color: #569cd6;">return</span> <span style="color: #ce9178;">"Olá, "</span> + nome + <span style="color: #ce9178;">"!"</span>;
+    }
+  
+    <span style="color: #569cd6;">let</span> mensagem = saudacao(<span style="color: #ce9178;">"João"</span>);
+    <span style="color: #9cdcfe;">console</span>.log(mensagem); <span style="color: #9cdcfe;">// Saída: Olá, João!</span>
+  <span style="color: #9cdcfe;">&lt;/script&gt;</span>
+  </code>
+    </pre>
+  </div>
+  <p>Além disso, em JavaScript, as funções também podem ser atribuídas a variáveis (funções anônimas) e podem ser passadas como argumentos para outras funções (funções de ordem superior).</p>
+  <p>Para saber mais sobre funções em JavaScript, você pode consultar os seguintes links de referência:</p>
+  <ul>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Fun%C3%A7%C3%B5es" target="_blank">Mozilla Developer Network - Funções</a></li>
+    <li><a href="https://www.w3schools.com/js/js_functions.asp" target="_blank">W3Schools - JavaScript Functions</a></li>
+    <li><a href="https://javascript.info/function-basics" target="_blank">JavaScript.info - Funções Básicas</a></li>
+  </ul>
+  <p><a href="#indice">Voltar ao Índice</a></p>
+  
+  <h2 id="objetos">Objetos em JavaScript</h2>
+  <p>Objetos em JavaScript são estruturas de dados que representam entidades com propriedades e métodos. Eles são utilizados para modelar objetos do mundo real dentro do código. Em JavaScript, os objetos são criados utilizando chaves (<code>{}</code>) e podem conter pares de chave-valor, onde a chave é uma string que identifica a propriedade e o valor pode ser de qualquer tipo de dado.</p>
+  <p>Aqui está um exemplo de criação e utilização de um objeto em JavaScript:</p>
+  <div style="background-color: #1e1e1e; padding: 10px; border-radius: 5px; display: inline-block;">
+   <pre style="color: #d4d4d4; font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; line-height: 1.5;">
+ <code>
+ <span style="color: #9cdcfe;">&lt;script&gt;</span>
+   <span style="color: #569cd6;">let</span> pessoa = {
+     nome: <span style="color: #ce9178;">"João"</span>,
+     idade: <span style="color: #b5cea8;">30</span>,
+     saudacao: <span style="color: #569cd6;">function</span>() {
+       <span style="color: #9cdcfe;">console</span>.log(<span style="color: #ce9178;">"Olá, meu nome é "</span> + <span style="color: #ce9178;">this</span>.nome);
+     }
+   };
+ 
+   pessoa.saudacao(); <span style="color: #9cdcfe;">// Saída: Olá, meu nome é João</span>
+ <span style="color: #9cdcfe;">&lt;/script&gt;</span>
+ </code>
+   </pre>
+ </div>
+
+  <p>Além disso, em JavaScript, é possível criar objetos utilizando classes (introduzidas a partir do ECMAScript 2015) e também herdar propriedades e métodos de outros objetos.</p>
+  <p>Para saber mais sobre objetos em JavaScript, você pode consultar os seguintes links de referência:</p>
+  <ul>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Trabalhando_com_Objetos" target="_blank">Mozilla Developer Network - Trabalhando com Objetos</a></li>
+    <li><a href="https://www.w3schools.com/js/js_objects.asp" target="_blank">W3Schools - JavaScript Objects</a></li>
+    <li><a href="https://javascript.info/object" target="_blank">JavaScript.info - Objects</a></li>
+  </ul>
+  <p><a href="#indice">Voltar ao Índice</a></p>
+  
+  <h2 id="manipulacao-dom">Manipulação do DOM em JavaScript</h2>
+  <p>O DOM (Document Object Model) é uma representação em memória da estrutura de elementos HTML de uma página web. Em JavaScript, é possível manipular o DOM para interagir com os elementos da página, adicionar, remover ou modificar elementos, atributos, estilos e conteúdo.</p>
+  <p>Para manipular o DOM em JavaScript, são utilizados métodos e propriedades disponíveis no objeto <code>document</code>, que representa o documento HTML carregado no navegador.</p>
+  <p>Aqui está um exemplo de manipulação do DOM em JavaScript:</p>
+  <div style="background-color: #1e1e1e; padding: 10px; border-radius: 5px; display: inline-block;">
+   <pre style="color: #d4d4d4; font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; line-height: 1.5;">
+ <code>
+ <span style="color: #9cdcfe;">&lt;script&gt;</span>
+   <span style="color: #569cd6;">// Selecionar um elemento pelo ID</span>
+   <span style="color: #569cd6;">let</span> titulo = <span style="color: #9cdcfe;">document</span>.getElementById(<span style="color: #ce9178;">"titulo"</span>);
+ 
+   <span style="color: #569cd6;">// Modificar o conteúdo de um elemento</span>
+   titulo.innerHTML = <span style="color: #ce9178;">"Novo Título"</span>;
+ 
+   <span style="color: #569cd6;">// Adicionar uma classe a um elemento</span>
+   titulo.classList.add(<span style="color: #ce9178;">"destaque"</span>);
+ 
+   <span style="color: #569cd6;">// Selecionar vários elementos pela classe</span>
+   <span style="color: #569cd6;">let</span> paragrafos = <span style="color: #9cdcfe;">document</span>.getElementsByClassName(<span style="color: #ce9178;">"paragrafo"</span>);
+ 
+   <span style="color: #569cd6;">// Iterar sobre os elementos selecionados</span>
+   <span style="color: #569cd6;">for</span> (<span style="color: #569cd6;">let</span> i = <span style="color: #b5cea8;">0</span>; i &lt; paragrafos.length; i++) {
+     paragrafos[i].innerHTML = <span style="color: #ce9178;">"Novo parágrafo"</span>;
+   }
+ <span style="color: #9cdcfe;">&lt;/script&gt;</span>
+ </code>
+   </pre>
+ </div>
+
+  <p>Existem muitos outros métodos e propriedades disponíveis para manipulação do DOM em JavaScript. Para saber mais, você pode consultar os seguintes links de referência:</p>
+  <ul>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document" target="_blank">Mozilla Developer Network - Document</a></li>
+    <li><a href="https://www.w3schools.com/js/js_htmldom.asp" target="_blank">W3Schools - JavaScript HTML DOM</a></li>
+    <li><a href="https://javascript.info/modifying-document" target="_blank">JavaScript.info - Modifying the Document</a></li>
+  </ul>
+  <p><a href="#indice">Voltar ao Índice</a></p>
+  
+  <h2 id="ajax">Requisições AJAX em JavaScript</h2>
+  <p>As requisições AJAX (Asynchronous JavaScript and XML) são utilizadas para fazer solicitações assíncronas a servidores web, permitindo que o conteúdo seja carregado e atualizado sem a necessidade de recarregar a página inteira.</p>
+  <p>Em JavaScript, é possível realizar requisições AJAX utilizando a classe <code>XMLHttpRequest</code> ou a função <code>fetch()</code> (introduzida a partir do ECMAScript 2015).</p>
+  <p>Aqui está um exemplo de utilização da função <code>fetch()</code> para fazer uma requisição AJAX e manipular a resposta:</p>
+  <div style="background-color: #1e1e1e; padding: 10px; border-radius: 5px; width: 400px;">
+    <pre style="color: #d4d4d4; font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; line-height: 1.5;">
+  <code>
+  <span style="color: #9cdcfe;">&lt;script&gt;</span>
+    <span style="color: #9cdcfe;">fetch</span>(<span style="color: #ce9178;">"https://api.example.com/data"</span>)
+      .then(<span style="color: #ce9178;">function</span>(response) {
+        <span style="color: #569cd6;">if</span> (response.ok) {
+          <span style="color: #569cd6;">return</span> response.json();
+        } <span style="color: #569cd6;">else</span> {
+          <span style="color: #569cd6;">throw</span> <span style="color: #ce9178;">new</span> <span style="color: #ce9178;">Error</span>(<span style="color: #ce9178;">"Erro na requisição."</span>);
+        }
+      })
+      .then(<span style="color: #ce9178;">function</span>(data) {
+        <span style="color: #9cdcfe;">console</span>.log(data);
+      })
+      .catch(<span style="color: #ce9178;">function</span>(error) {
+        <span style="color: #9cdcfe;">console</span>.log(error);
+      });
+  <span style="color: #9cdcfe;">&lt;/script&gt;</span>
+  </code>
+    </pre>
+  </div>
+  <p>Existem diversas opções e configurações avançadas para realizar requisições AJAX em JavaScript. Para saber mais, você pode consultar os seguintes links de referência:</p>
+  <ul>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHttpRequest" target="_blank">Mozilla Developer Network - XMLHttpRequest</a></li>
+    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API" target="_blank">Mozilla Developer Network - Fetch API</a></li>
+    <li><a href="https://www.w3schools.com/js/js_ajax_intro.asp" target="_blank">W3Schools - JavaScript AJAX</a></li>
+    <li><a href="https://javascript.info/ajax" target="_blank">JavaScript.info - AJAX and Fetch</a></li>
+  </ul>
+  <p><a href="#indice">Voltar ao Índice</a></p>
+  
+  <h2 id="conclusao">Conclusão</h2>
+  <p>O JavaScript é uma linguagem de programação poderosa e versátil, amplamente utilizada para desenvolvimento web. Com os conceitos básicos apresentados neste guia, você está pronto para começar a escrever código JavaScript e explorar todo o potencial da linguagem.</p>
+  <p>Lembre-se de praticar e experimentar, utilizando os recursos e referências disponíveis para aprofundar seus conhecimentos. Com o tempo e a prática, você se tornará cada vez mais familiarizado com a linguagem e será capaz de criar aplicações web incríveis.</p>
+  <p>Espero que este guia tenha sido útil! Se você tiver mais perguntas, sinta-se à vontade para perguntar. Estou aqui para ajudar!</p>
+  <p><a href="#indice">Voltar ao Índice</a></p>
+  
+  </div>
+  </body>
+  </html>

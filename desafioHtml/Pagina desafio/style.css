@@ -1,0 +1,76 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #ad1010;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+
+.menu {
+  width: 15%;
+  background-color: #e7e1e1;
+  padding: 10px 20px 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header {
+  background-image: url("LogoSample.jpg");
+  background-position: center;
+  min-height: 150px;
+}
+
+.content {
+  background-color: #b1e2f5;
+  min-height: 300px;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #0cddec; /* Cor de fundo */
+  background-image: url("footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0c0c0c; /* Cor do texto */
+  font-weight: bold;
+  font-size: 16px;
+  opacity: 0.8; /* Ajuste a opacidade da imagem de fundo */
+}
+
+
+
+
+ 
